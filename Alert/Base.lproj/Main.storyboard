@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,23 +19,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4t-tm-yUj">
-                                <rect key="frame" x="164" y="28" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4t-tm-yUj">
+                                <rect key="frame" x="113" y="8" width="149" height="30"/>
+                                <state key="normal" title="Simple Alert"/>
                                 <connections>
                                     <action selector="btnAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of4-LN-80p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7c-Vs-q5d">
+                                <rect key="frame" x="139" y="46" width="97" height="30"/>
+                                <state key="normal" title="Alert Function"/>
+                                <connections>
+                                    <action selector="btnAlertFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Prd-eV-xkA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMK-Qb-S5i">
+                                <rect key="frame" x="150" y="84" width="75" height="30"/>
+                                <state key="normal" title="Alert Class"/>
+                                <connections>
+                                    <action selector="btnAlertClass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FyW-vs-G2h"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="I4t-tm-yUj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9fY-II-GHW"/>
-                            <constraint firstItem="I4t-tm-yUj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ZI7-eu-HM7"/>
+                            <constraint firstItem="p7c-Vs-q5d" firstAttribute="top" secondItem="I4t-tm-yUj" secondAttribute="bottom" constant="8" symbolic="YES" id="FFy-Wb-lZh"/>
+                            <constraint firstItem="I4t-tm-yUj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P1q-lN-YZz"/>
+                            <constraint firstItem="p7c-Vs-q5d" firstAttribute="centerX" secondItem="I4t-tm-yUj" secondAttribute="centerX" id="Wqx-ha-mwb"/>
+                            <constraint firstItem="I4t-tm-yUj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Z7Z-iy-xXl"/>
+                            <constraint firstItem="pMK-Qb-S5i" firstAttribute="centerX" secondItem="p7c-Vs-q5d" secondAttribute="centerX" id="j0t-7Q-u1B"/>
+                            <constraint firstItem="pMK-Qb-S5i" firstAttribute="top" secondItem="p7c-Vs-q5d" secondAttribute="bottom" constant="8" symbolic="YES" id="jyt-5k-WBy"/>
+                            <constraint firstItem="I4t-tm-yUj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="97" id="ld6-y2-sGz"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="101.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>

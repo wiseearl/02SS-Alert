@@ -13,10 +13,22 @@ class ViewController: UIViewController {
     var vc = NSObject.self
     
     @IBAction func btnAlert(_ sender: Any) {
-        //showAlertNew()
-        showAlertSimple("AAA","BBB")
-        //showAlertClass()
+        
+        showAlertSimple()
     }
+    
+    
+    @IBAction func btnAlertFunc(_ sender: Any) {
+        
+        showAlertFunc("AlertSimple","This is a simple message!!")
+    }
+    
+    
+    @IBAction func btnAlertClass(_ sender: Any) {
+        //Not finish yet
+        showAlertClass()
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,20 +41,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    //Old
-    func showAlert()
-    {
-        /*
-        let alert: UIAlertView = UIAlertView()
-      
-        alert.delegate = nil
-        alert.addButton(withTitle: "Ok")
-        alert.show()
- */
-    }
     
     //New
-    func showAlertNew()
+    func showAlertSimple()
     {
         let alertController = UIAlertController(title: "Title", message: "This is my text", preferredStyle: UIAlertController.Style.alert)
         
@@ -57,7 +58,7 @@ class ViewController: UIViewController {
     }
     
 
-    func showAlertSimple(_ strTitle : String,_ strMessage : String )
+    func showAlertFunc(_ strTitle : String,_ strMessage : String )
     {
         
         let alertController = UIAlertController(title: strTitle, message: strMessage,
@@ -74,7 +75,7 @@ class ViewController: UIViewController {
     }
 
     
-    //New Class,not finish yet
+    //Developing alert function as a class
     func showAlertClass()
     {
         _ = neonlightAlert()

@@ -102,7 +102,7 @@
 				TargetAttributes = {
 					CEFA09071E1364D5001A224E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8M3JF49Z38;
+						DevelopmentTeam = RYDE455G9X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -289,9 +289,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8M3JF49Z38;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RYDE455G9X;
 				INFOPLIST_FILE = Alert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neonlight.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -302,9 +304,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8M3JF49Z38;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RYDE455G9X;
 				INFOPLIST_FILE = Alert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neonlight.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
