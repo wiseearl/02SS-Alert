@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnAlert(_ sender: Any) {
         
-        showAlertSimple()
+        AlertUtil.showSimpleAlert(uiVC: self, strTitle: "Confirm",strMsg: "This is a confirm message")
     }
     
     
@@ -42,20 +42,6 @@ class ViewController: UIViewController {
     }
     
     
-    //New
-    func showAlertSimple()
-    {
-        let alertController = UIAlertController(title: "Title", message: "This is my text", preferredStyle: UIAlertController.Style.alert)
-        
-        let okAction = UIAlertAction(title: "確認", style: UIAlertAction.Style.default)
-        {
-            (result : UIAlertAction) -> Void in
-            print("You pressed OK")
-        }
-        alertController.addAction(okAction)
-        self.present(alertController, animated: true, completion: nil)
-        
-    }
     
 
     func showAlertFunc(_ strTitle : String,_ strMessage : String )

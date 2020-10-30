@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0328F54D254BB1920040F040 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0328F54C254BB1920040F040 /* AlertUtil.swift */; };
 		CECE8EDD1E13907800CBC418 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE8EDC1E13907800CBC418 /* Alert.swift */; };
 		CEFA090C1E1364D5001A224E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA090B1E1364D5001A224E /* AppDelegate.swift */; };
 		CEFA090E1E1364D5001A224E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA090D1E1364D5001A224E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0328F54C254BB1920040F040 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
 		CECE8EDC1E13907800CBC418 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CEFA09081E1364D5001A224E /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFA090B1E1364D5001A224E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0328F54A254BB17B0040F040 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0328F54C254BB1920040F040 /* AlertUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		CEFA08FF1E1364D5001A224E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		CEFA090A1E1364D5001A224E /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				0328F54A254BB17B0040F040 /* Util */,
 				CEFA090B1E1364D5001A224E /* AppDelegate.swift */,
 				CEFA090D1E1364D5001A224E /* ViewController.swift */,
 				CEFA090F1E1364D5001A224E /* Main.storyboard */,
@@ -146,6 +157,7 @@
 				CEFA090E1E1364D5001A224E /* ViewController.swift in Sources */,
 				CEFA090C1E1364D5001A224E /* AppDelegate.swift in Sources */,
 				CECE8EDD1E13907800CBC418 /* Alert.swift in Sources */,
+				0328F54D254BB1920040F040 /* AlertUtil.swift in Sources */,
 				CEFA09141E1364D5001A224E /* Alert.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,11 +301,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = RYDE455G9X;
 				INFOPLIST_FILE = Alert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neonlight.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -304,11 +316,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = RYDE455G9X;
 				INFOPLIST_FILE = Alert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neonlight.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
